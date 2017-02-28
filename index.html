@@ -2,16 +2,23 @@
 <head>
   <meta charset="utf-8">
   <title>AppNumeros</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <div id="page-wrapper">
     <!-- Formulario para los numeros  -->
     <form id="new-number-form" method="POST" action="#">
-      <input type="text" name="new-number-txt" id="new-number-txt" placeholder="INGRESAR NUMERO" required>
+      <!-- Solo numeros  -->
+      <input type="number" name="new-number-txt" id="new-number-txt" placeholder="INGRESAR NUMERO" required>
+      <input type="submit" value="Agregar">
     </form>
     <!-- Lista de todos los numeros -->
     <ul id="todo-items"></ul>
+    <div id="footer">
+      <span class="countReg"></span>
+      <button type="button" id="btnSort">Ordenar</button>
+    </div>
   </div>
   <script src="./js/db.js"></script>
   <script src="./js/app.js"></script>

@@ -1,17 +1,36 @@
 /**
- * @Modulo: app Numeros
+ * @Modulo: appNumeros
  * @Autor: Antony tasayco cappillo, <antony.exe@gmail.com>
  */
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import url(http://fonts.googleapis.com/css?family=Lato:300,100,400);
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 body, html { padding: 0; margin: 0; }
-body { background-color: #3498db; font-family: "Lato", sans-serif; }
-#page-wrapper { width: 550px; margin: 2.5em auto; background: #FFF; box-shadow: 0 1px 3px rgba(0,0,0,0.2); border-radius: 3px; }
-#new-number-form { padding: 0.5em; background: #0088CC; border-top-left-radius: 3px; border-top-right-radius: 3px; }
-#new-number-txt { width: 100%; padding: 0.5em; font-size: 1em; border-radius: 3px; border: 0; }
-#todo-items { list-style: none; padding: 0.5em 1em; margin: 0; }
-#todo-items li { font-size: 0.9em; padding: 0.5em; background: #FFF; border-bottom: 1px solid #EEE; margin: 0.5em 0; }
-input[type="checkbox"] { margin-right: 10px; }
+body { background-color: #323131; font-family: "Lato", sans-serif; }
 
-.fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; width: 32px; font-size: 14px; text-align: right; margin-right: 10px; }
+#page-wrapper { width: 550px; margin: 2.5em auto; box-shadow: 0 1px 3px rgba(0,0,0,0.2); border-radius: 3px; position: relative; height: auto !important; }
+#new-number-form { padding: 0.5em; background: #111619; border-top-left-radius: 3px; border-top-right-radius: 3px; }
+#new-number-txt { width: 434px; padding: 0.5em; font-size: 1em; border-radius: 3px; border: 0; float: left; transition: all .3s ease; }
+input[type='submit'], #btnSort { height: 35px; width: 96px; color: white; cursor: pointer; padding: 0; font: 300 18px "Lato","Arial",sans-serif; margin-left: 4px; border: 0; background: #80878B; }
+#todo-items { list-style: none; padding: 0.5em 1em; margin: 0; }
+#todo-items li { font-size: 0.9em; padding: 0.5em; background: #FFF; border-bottom: 1px solid #EEE; margin: 0.5em 0; display: inline-block; width: 518px; height: 32px; }
+i.btnDelete{ float: right; cursor: pointer; }
+#footer{ clear: both; }
+#btnSort{ display: none;  }
+
+/* -- Iconos -- */
+.fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; width: 32px; text-align: right; margin-right: 10px; }
+/* -- Animacion registro -- */
+li.new-item { opacity: 0; -webkit-animation: new-item-animation .3s linear forwards; -o-animation: new-item-animation .3s linear forwards; animation: new-item-animation .3s linear forwards }
+@keyframes new-item-animation {
+	from { opacity: 0; -webkit-transform: scale(0); -ms-transform: scale(0); -o-transform: scale(0); transform: scale(0) }
+	to { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); transform: scale(1) }
+}
+@-webkit-keyframes new-item-animation {
+	from { opacity: 0; -webkit-transform: scale(0); transform: scale(0) }
+	to { opacity: 1; -webkit-transform: scale(1); transform: scale(1) }
+}
+@-o-keyframes new-item-animation {
+	from { opacity: 0; -o-transform: scale(0); transform: scale(0) }
+	to { opacity: 1; -o-transform: scale(1); transform: scale(1) }
+}

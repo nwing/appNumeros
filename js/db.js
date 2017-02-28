@@ -13,6 +13,7 @@ var numberDB = (function() {
   tDB.open = function(callback) {
     // Version DB
     var version = 1;
+    // Nombre de la base de datos
     var request = indexedDB.open('AppNumeros', version);
 
     request.onupgradeneeded = function(e) {
@@ -23,7 +24,7 @@ var numberDB = (function() {
       if (db.objectStoreNames.contains('number')) {
         db.deleteObjectStore('number');
       }
-
+      // Creamos una tabla
       var store = db.createObjectStore('number', {
         keyPath: 'timestamp'
       });
@@ -77,7 +78,7 @@ var numberDB = (function() {
    * Crear un nuevo registro
    * @param {getNumber} number
    */
-  tDB.createNumber = function(numero, callback) {
+  tDB.createNumber = function(numero, status, callback) {
     // Referencia DB
     var db = datastore;
 
@@ -92,11 +93,12 @@ var numberDB = (function() {
     // Creando objeto para nuevo registro
     var number = {
       'numero': numero,
+      'status': status,
       'timestamp': timestamp
     };
 
     // Enviado registro
-    var request = objStore.put(number);
+    var request = objStore.add(number);
 
     // Si el registro se guardo con existo
     request.onsuccess = function(e) {
@@ -127,6 +129,68 @@ var numberDB = (function() {
     request.onerror = function(e) {
       console.log(e);
     }
+  };
+
+  /**
+   * Editar un registro
+   * @param {int} id Ttimestamp
+   * @param {boulean} status
+   * @param {callbkack} function
+   */
+  tDB.editNumber = function(id, status, callback) {
+    var db = datastore;
+    var transaction = db.transaction(['number'], 'readwrite');
+    var objStore = transaction.objectStore('number');
+
+    objStore.openCursor().onsuccess = function(event) {
+      var cursor = event.target.result;
+      if(cursor) {
+        if(cursor.value.timestamp === id) {
+          var updateData = cursor.value;
+          var number = {
+                'numero': updateData.numero,
+                'status': false,
+                'timestamp': updateData.timestamp
+              };
+          var request = objStore.put(number);
+
+          request.onsuccess = function() {
+            callback();
+          };
+
+          request.onerror = function(e) {
+            console.log(e);
+          }
+
+        };
+        cursor.continue();        
+      }
+    };
+  };
+
+  /**
+   * Validar si existe un registro
+   * @param {int} id Ttimestamp
+   * @param {boulean} status
+   * @param {callbkack} function
+   */
+  tDB.existsNumber = function(callback) {
+    var db = datastore;
+    var transaction = db.transaction(['number'], 'readwrite');
+    var objStore = transaction.objectStore('number');
+    var numberArray = [];
+
+    objStore.openCursor().onsuccess = function(event) {
+      var cursor = event.target.result;
+      if(cursor) {
+        numberArray.push(cursor.value.numero);
+        cursor.continue();        
+      }
+    };
+
+    transaction.oncomplete = function(e) {
+      callback(numberArray);
+    };
   };
 
   return tDB;
