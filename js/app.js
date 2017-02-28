@@ -45,21 +45,21 @@
         var numero = numeros[(numeros.length - 1 - i)];
 
         var li = document.createElement('li');
-        var checkbox = document.createElement('input');
-        checkbox.type = "checkbox";
-        checkbox.className = "todo-checkbox";
-        checkbox.setAttribute("data-id", numero.timestamp);
-        
-        li.appendChild(checkbox);
         
         var span = document.createElement('span');
         span.innerHTML = numero.numero;
         
         li.appendChild(span);
-        
+
+        var icoDelete = document.createElement('i');
+        icoDelete.className = "fa fa-trash";
+        icoDelete.setAttribute("data-id", numero.timestamp);
+
+        li.appendChild(icoDelete);
+
         numberList.appendChild(li);
         // Setup an event listener for the checkbox.
-        checkbox.addEventListener('click', function(e) {
+        icoDelete.addEventListener('click', function(e) {
           var id = parseInt(e.target.getAttribute('data-id'));
           numberDB.deleteNumber(id, self.refreshNumeros);
         });

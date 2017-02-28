@@ -1,0 +1,646 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mensa",
+				"mensaje_usuario"
+			],
+			[
+				"ea",
+				"each\t$.each()"
+			],
+			[
+				"or",
+				"orderscreatev2〔namespace〕"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"FOTO_4",
+				"FOTO_4_mobile.jpg\tw:350 h:330"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ex",
+				"exit"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 553,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 309.0,
+		"last_filter": "sublimegit",
+		"selected_items":
+		[
+			[
+				"sublimegit",
+				"SublimeGit: Version"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bran",
+				"git: branch"
+			],
+			[
+				"htmlprettify",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"prettify",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"ints",
+				"Package Control: Install Package"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/appNumeros"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/appNumeros/js/db.js",
+		"/C/xampp/htdocs/appNumeros/.jsbeautifyrc",
+		"/C/xampp/htdocs/appNumeros/index.html",
+		"/C/xampp/htdocs/appNumeros/js/app.js",
+		"/C/xampp/htdocs/appNumeros/appNumeros.sublime-workspace",
+		"/C/Users/Tecnologia/Desktop/test/appNumeros/index.html",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp10321/var/log/httpd/error_log",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp51794/var/www/html/medula/classes/native/MyOrder.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp40620/var/www/html/rs/cms-grupomyw/js/20160525123402_main.js",
+		"/C/Users/Tecnologia/Desktop/test/packing/ViewingTruncated-3.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp41444/var/www/html/rs/omni-grupomyw/js/20160613072511_main.js",
+		"/C/Users/Tecnologia/Desktop/test/jsEfecto/index.js",
+		"/C/Users/Tecnologia/Desktop/test/packing/ViewingPicking.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp57273/var/www/html/medula/sites/omni.grupomyw.com/orders/packing/viewingPicking.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/viewingPicking-2.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp39530/var/www/html/medula/sites/omni.grupomyw.com/orders/packing/ViewingPicking.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/ViewingReprint-4.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/sept6.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/sept4.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/sept3.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/Truncate.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/sept5.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/sept2.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp48042/var/www/html/medula/sites/omni.grupomyw.com/orders/packing/viewingPicking.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp57891/var/www/html/medula/sites/omni.grupomyw.com/orders/packing/ViewingPicking.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp24246/var/www/html/medula/sites/omni.grupomyw.com/orders/packing/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp18696/var/www/html/medula/sites/omni.grupomyw.com/orders/packing/Truncate.php",
+		"/C/Users/Tecnologia/Desktop/test/alvaFreelo/mgomez/send-mail/sendIndividualMessag.php",
+		"/C/Users/Tecnologia/Desktop/test/alvaFreelo/mgomez/index.html",
+		"/C/Users/Tecnologia/Desktop/test/alvaFreelo/mgomez/index.php",
+		"/C/Users/Tecnologia/Desktop/test/alvaFreelo/mgomez/index-2.html",
+		"/C/Users/Tecnologia/Desktop/test/alvaFreelo/mgomez/index.html.bak.bak",
+		"/C/Users/Tecnologia/Desktop/test/alvaFreelo/mgomez/send-mail/vendor/sendgrid/php-http-client/examples/example.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp18377/var/www/html/medula/sites/omni.grupomyw.com/orders/packing/sept5.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp57339/var/www/html/medula/sites/omni.grupomyw.com/orders/picking/Test.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp56443/var/www/html/medula/sites/omni.grupomyw.com/orders/picking/Orderspackaging.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp56906/var/www/html/medula/sites/omni.grupomyw.com/orders/picking/Orderscontainer.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp59979/var/www/html/medula/sites/omni.grupomyw.com/orders/picking/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp59851/var/www/html/medula/sites/omni.grupomyw.com/orders/packing/index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp23942/var/www/html/medula/sites/omni.grupomyw.com/orders/create-v2/Index.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/viewingPicking.php",
+		"/C/Users/Tecnologia/Desktop/Antony/dev/medula/classes/native/MySessionVs2.php",
+		"/C/Users/Tecnologia/Desktop/test/packing/OrdersPackaging.php",
+		"/C/Users/Tecnologia/Desktop/test/Eri.php",
+		"/C/Users/Tecnologia/Desktop/test/MyEri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp32015/var/www/html/rs/omni-grupomyw/js/20160613072511_main.js",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp31503/var/www/html/rs/cms-grupomyw/js/20160525123402_main.js",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp32623/var/www/html/rs/cms-grupomyw/js/20160525123402_main.js",
+		"/C/Users/Tecnologia/Desktop/test/20160225114001_main.css",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp58363/var/www/html/rs/omni-grupomyw/css/20160225114001_main.min.css",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp00386/var/www/html/rs/omni-grupomyw/css/20160225114001_main.min.css",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp00939/var/www/html/rs/omni-grupomyw/css/20160225114001_main.min.css",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp00066/var/www/html/rs/omni-grupomyw/css/20160225114001_main.min.css",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp53205/var/www/html/medula/sites/omni.grupomyw.com/tools/eri/Picking.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp44810/var/www/html/medula/classes/native/MyStore.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp34131/var/www/html/medula/sites/cms.grupomyw.com/Stores.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp38007/var/www/html/medula/sites/omni.grupomyw.com/analytics/GlobalLpnsLists.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp39887/var/www/html/medula/classes/native/MyAnalytic.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp39806/var/www/html/medula/classes/native/MyAnalytic.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp39183/var/www/html/medula/classes/native/MyAnalytic.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp39790/var/www/html/medula/classes/native/MyAnalytic.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp18449/var/www/html/medula/sites/omni.grupomyw.com/analytics/global-orders/Lists.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp57107/var/www/html/medula/sites/omni.grupomyw.com/analytics/global-orders/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp58980/var/www/html/medula/classes/native/MyOrder.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp44141/var/log/httpd/error_log",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp47894/var/www/html/medula/settings/Config.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp08759/var/www/html/rs/cms-grupomyw/js/20160525123402_main.js",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp42494/var/www/html/medula/sites/cms.grupomyw.com/SupervisarEntrega.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp40190/var/www/html/medula/sites/cms.grupomyw.com/TaxonomiesMenu.php",
+		"/C/Users/Tecnologia/Desktop/test/UploadFRM/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp47214/var/www/html/index.php",
+		"/C/Users/Tecnologia/Desktop/test/Rmas.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp57862/var/www/html/medula/sites/omni.grupomyw.com/analytics/GlobalLpnsLists.php",
+		"/C/Users/Tecnologia/Desktop/bk_sql.txt",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp49213/var/www/html/medula/classes/native/MyAnalytic.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp08360/var/www/html/medula/sites/omni.grupomyw.com/analytics/GlobalSkusLists.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp17721/var/www/html/medula/sites/omni.grupomyw.com/analytics/GlobalSkus.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp19303/var/www/html/medula/sites/omni.grupomyw.com/analytics/global-orders/Lists.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp57542/var/www/html/medula/classes/native/MyOrder.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp55157/var/www/html/medula/sites/omni.grupomyw.com/analytics/GlobalLpns.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp22987/var/www/html/medula/sites/omni.grupomyw.com/analytics/global-orders/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp59604/var/www/html/medula/classes/native/MyEri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp55996/var/www/html/medula/sites/omni.grupomyw.com/analytics/Eri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp00550/var/www/html/medula/classes/native/MyEri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp12077/var/www/html/medula/sites/omni.grupomyw.com/analytics/Eri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp21159/var/log/httpd/error_log",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp33907/var/www/html/medula/sites/omni.grupomyw.com/analytics/Eri.php",
+		"/C/Users/Tecnologia/Desktop/eri_produccion/Eri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp02459/var/www/html/rs/omni-grupomyw/js/20160613072511_main.js",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp19369/var/www/html/medula/sites/omni.grupomyw.com/analytics/Eri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp10861/var/www/html/medula/classes/native/MyEri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp04581/var/log/httpd/error_log",
+		"/C/Users/Tecnologia/Desktop/index.html",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp50243/var/www/html/medula/sites/omni.grupomyw.com/tools/eri/Picking.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp07009/var/www/html/medula/sites/omni.grupomyw.com/orders/ItemsKeeps.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp29233/var/www/html/medula/sites/omni.grupomyw.com/analytics/Eri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp29192/var/www/html/medula/sites/omni.grupomyw.com/analytics/Eri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp29448/var/www/html/medula/sites/omni.grupomyw.com/analytics/Eri.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp27104/var/www/html/medula/sites/omni.grupomyw.com/analytics/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp26928/var/www/html/medula/sites/omni.grupomyw.com/analytics/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp27368/var/www/html/medula/sites/omni.grupomyw.com/analytics/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp52811/var/www/html/medula/sites/omni.grupomyw.com/tools/eri/Control.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp26160/var/www/html/medula/sites/omni.grupomyw.com/analytics/Lpns.php",
+		"/C/Users/Tecnologia/Desktop/mysql.sql",
+		"/C/Users/Tecnologia/Desktop/demo.js",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp47811/var/www/html/medula/sites/omni.grupomyw.com/outputs/PreoutputsEnds.php",
+		"/C/Users/Tecnologia/Desktop/Antony/IndexDB-Demo1.html",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp24245/var/www/html/medula/sites/omni.grupomyw.com/Api.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp54883/var/www/html/medula/sites/omni.grupomyw.com/eri/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp47971/var/www/html/medula/sites/omni.grupomyw.com/eri/index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp08171/var/www/html/medula/classes/native/MyStore.php",
+		"/C/Users/Tecnologia/Desktop/Antony/test/desarrollo/js/index.js",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp22978/var/www/html/medula/classes/native/MyItem.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp43489/var/www/html/medula/classes/native/MyUserPhone.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp20789/var/www/html/medula/classes/native/MyOrder.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp24877/var/www/html/medula/sites/omni.grupomyw.com/Error.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp19565/var/www/html/medula/settings/Config.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp21332/var/www/html/medula/sites/omni.grupomyw.com/orders/create-v2/Index.php",
+		"/C/Users/Tecnologia/Desktop/Antony/devV2/medula/sites/omni.grupomyw.com/eri/Index___.php",
+		"/C/Users/Tecnologia/Desktop/Antony/devV2/medula/sites/omni.grupomyw.com/eri/Index.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp20455/var/www/html/medula/classes/native/MyPDOPOS.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp19511/var/www/html/medula/classes/native/MyOrder.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp17154/var/www/html/medula/sites/omni.grupomyw.com/orders/create-v2/_ModalCarts.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp16615/var/www/html/medula/sites/omni.grupomyw.com/Api.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp17071/var/www/html/medula/classes/native/MyPrinter.php",
+		"/C/Users/Tecnologia/AppData/Local/Temp/scp19361/var/www/html/rs/omni-grupomyw/js/20160613072511_main.js",
+		"/C/Users/Tecnologia/Desktop/Antony/desarrollo/01-02-17/20160613072511_main.js"
+	],
+	"find":
+	{
+		"height": 60.0
+	},
+	"find_in_files":
+	{
+		"height": 130.0,
+		"where_history":
+		[
+			"C:\\Users\\Tecnologia\\Desktop\\Antony\\devV2",
+			"C:\\Users\\Tecnologia\\Desktop\\Antony\\dev",
+			"C:\\xampp\\htdocs\\Antony\\G-Pft\\img",
+			"C:\\xampp\\htdocs\\Antony\\G-Pft"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">';\n",
+			"Matricial",
+			"orderspacking",
+			"orderspackingviewingpicking",
+			"all:{",
+			"orderspackingviewingpicking",
+			"orderspacking",
+			"xD.l16",
+			"print_out",
+			"guide",
+			"btn-print",
+			"id_orders",
+			"submit_prints",
+			"orderspackaging",
+			"btn-print",
+			"papu",
+			"PAPU",
+			"table > tbody > [data-ean=\\",
+			"get_orders_12",
+			"$_REQUEST['action']",
+			"$MySession",
+			"$MyOrder",
+			"$MyZeta",
+			"$MyOrder",
+			"$MySession",
+			"$MyZeta",
+			"$MyOrder",
+			"$MyZeta",
+			"MyZeta",
+			"MyOrder",
+			"get_eri",
+			"get_stores_count",
+			"get_eri_report_surplus",
+			"get_stores(",
+			"get_stores",
+			"get_stores_count",
+			"get_analytics_global_lpns_lists_all",
+			"get_orders_statuses_stores_omni",
+			"get_count_orders_stores_omni",
+			"taxonomiesmenu",
+			"Taxonomiesmenu",
+			"taxonomiesmenu",
+			"taxonomiesmenuterms",
+			"taxonomiesmenu",
+			"SupervisarEntrega",
+			"well",
+			"get_analytics_global_skus_lists_all",
+			"get_analytics_global_skus",
+			"get_analytics_global_skus_lists",
+			"get_analytics_global_skus",
+			"get_analytics_global_skus_lists_all",
+			"get_analytics_global_skus_lists",
+			"get_analytics_global_skus",
+			"get_analytics_global_skus_lists",
+			"get_analytics_global_skus",
+			"get_orders_statuses_stores_omni",
+			"sp_get_analytics_global_lpns_lists",
+			"get_analytics_global_lpns_lists_all",
+			"get_analytics_global_skus_lists",
+			"get_analytics_global_lpns_lists",
+			"get_count_orders_stores_omni",
+			"get_orders_statuses_stores_omni",
+			"get_orders_statuses_omni",
+			"get_orders_statuses_stores",
+			"get_orders_statuses_stores_omni",
+			"25848499",
+			"id_stores_stocks",
+			"get_eri_items",
+			"id_items_locations",
+			"get_eri",
+			"$_REQUEST['filter-eri']",
+			"get_eri_report_locations",
+			"locations-missing",
+			"get_eri_report_surplus",
+			"get_eri_report",
+			"missing",
+			"get_eri_report_locations",
+			"locations-missing",
+			"id_items_locations",
+			"eri",
+			"analyticseri",
+			"/tools/eri/control",
+			"set_data_eri",
+			"clear",
+			"btn_lpn",
+			"disable",
+			"lpn",
+			"loaddata",
+			"btn-eri-add",
+			"validaLpn",
+			"t_eri",
+			"location",
+			"txtTitleUbica",
+			"text_locations",
+			"get(",
+			"get_vald_lpn",
+			"timestamp_transaction.objectStore(",
+			"xD.db_request",
+			"xD.db",
+			"xD.db_request",
+			"local_",
+			"xD.db",
+			"</th>';",
+			"local_main",
+			"xD.l1",
+			"local_main",
+			"local_m",
+			"local",
+			"t_eri",
+			"opencursor",
+			"cursor",
+			"OPEN",
+			"t_eri",
+			"local_",
+			"xD.db",
+			"t_eri",
+			"local_",
+			"t_eri",
+			"xD.db_request.onsuccess ",
+			"xD.db_request.onupgradeneeded",
+			"t_eri",
+			"t_timestamps",
+			"createObjectStore",
+			"_eri",
+			"eri",
+			"local_main",
+			"xD.db_request.onsuccess",
+			"t_eri"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								553
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										548,
+										552
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_savvy.file_path": "C:\\xampp\\htdocs\\appNumeros\\index.html",
+							"git_savvy.repo_path": "C:\\xampp\\htdocs\\appNumeros",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 355.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 88.0
+	},
+	"pinned_build_system": "",
+	"project": "appNumeros.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
