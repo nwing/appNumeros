@@ -7,8 +7,7 @@ Lista de numero, para este App se uso:
   - indexedDb: Evitar problemas de conectividad.
   - Javascript Prototype
   - Css3 
-  - Html5
-
+  
   Par mayor manejo del codigo instalar(Sublime-HTMLPrettify), con la siguiente configuración :
     https://github.com/victorporof/Sublime-HTMLPrettify
 
