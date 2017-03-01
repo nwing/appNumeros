@@ -19,7 +19,7 @@ i.btnDelete{ float: right; cursor: pointer; }
 #btnSort{ display: none;  }
 
 /* -- Iconos -- */
-.fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; width: 32px; text-align: right; margin-right: 10px; }
+.fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; width: 15px; text-align: right; margin-right: 10px; }
 /* -- Animacion registro -- */
 li.new-item { opacity: 0; -webkit-animation: new-item-animation .3s linear forwards; -o-animation: new-item-animation .3s linear forwards; animation: new-item-animation .3s linear forwards }
 @keyframes new-item-animation {
